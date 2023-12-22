@@ -13,7 +13,7 @@ int main(){
     cin.get();
     count++;
     }while(count <= 3);
-    int x = rand() % 8 + 1;
+    int x = rand() % 9 ;
     cout << "you will get " << grade[x] << " in this 261102.";
 
     return 0;   
